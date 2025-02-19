@@ -54,6 +54,8 @@ applyBtn.addEventListener("click", () => {
   )} Tasks`;
   // hide datepicker
   datepicker.hidden = true;
+  targetCount.value = "";
+  dateInput.value = "";
 });
 
 // handle next month nav
